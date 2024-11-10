@@ -1,0 +1,78 @@
+
+/* Estilos para o container principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Título */
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Container do input e botão */
+  .containerInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input de texto */
+  .containerInput input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  /* Botão de busca */
+  .buttonSearch {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonSearch:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Resultados do CEP */
+  .main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .main h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .main span {
+    display: block;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
